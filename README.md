@@ -1,0 +1,38 @@
+# Motion Log Validator
+
+A Python-based tool for analyzing motion system debug logs and validating system behavior using rule-based checks.
+
+## Overview
+
+This project focuses on extracting structured events from debug logs and validating motion sequences such as command execution, target reach, standby behavior, and error states.
+
+It is designed as a validation and test automation tool rather than a simple log parser.
+
+## Features
+
+- Log parsing and event extraction
+- Rule-based validation of motion behavior
+- Detection of target reached, standby, and errors
+- PASS / FAIL evaluation with reasons
+- JSON and CSV reporting
+- Test coverage using pytest
+
+## Use Case
+
+The tool is intended for validating motion systems such as:
+
+- Servo axes
+- Multi-axis motion (e.g. X / Y / Rotation)
+- Sensor-triggered motion
+- Automated system behavior verification
+
+## Project Structure
+
+```text
+src/motion_validator/
+    reader.py
+    parser.py
+    engine.py
+    validators/
+    models/
+    reporting/

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+conda-meta/
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Logs & reports
+*.log
+reports/*.json
+reports/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
